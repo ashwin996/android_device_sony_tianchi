@@ -1,542 +1,457 @@
-  app/com.qualcomm.location.apk:system/app/com.qualcomm.location.apk \
-    bin/acc_cal_data_manager:system/bin/acc_cal_data_manager \
-    bin/adsprpcd:system/bin/adsprpcd \
-    bin/bridgemgrd:system/bin/bridgemgrd \
-    bin/btnvtool:system/bin/btnvtool \
-    bin/cal_data_manager:system/bin/cal_data_manager \
-    bin/chargemon:system/bin/chargemon \
-    bin/credmgrd:system/bin/credmgrd \
-    bin/display_color_calib:system/bin/display_color_calib \
-    bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    bin/fmconfig:system/bin/fmconfig \
-    bin/gsiff_daemon:system/bin/gsiff_daemon \
-    bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    bin/hvdcp:system/bin/hvdcp \
-    bin/illumination_service:system/bin/illumination_service \
-    bin/irsc_util:system/bin/irsc_util \
-    bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    bin/mpdecision:system/bin/mpdecision \
-    bin/netmgrd:system/bin/netmgrd \
-    bin/port-bridge:system/bin/port-bridge \
-    bin/ptt_socket_app:system/bin/ptt_socket_app \
-    bin/qcom-system-daemon:system/bin/qcom-system-daemon \
-    bin/qmiproxy:system/bin/qmiproxy \
-    bin/qmuxd:system/bin/qmuxd \
-    bin/qseecomd:system/bin/qseecomd \
-    bin/radish:system/bin/radish \
-    bin/rfs_access:system/bin/rfs_access \
-    bin/rmt_storage:system/bin/rmt_storage \
-    bin/scd:system/bin/scd \
-    bin/scdnotifier:system/bin/scdnotifier \
-    bin/sct_service:system/bin/sct_service \
-    bin/sensors.qcom:system/bin/sensors.qcom \
-    bin/suntrold:system/bin/suntrold \
-    bin/system_monitor:system/bin/system_monitor \
-    bin/ta_qmi_service:system/bin/ta_qmi_service \
-    bin/taimport:system/bin/taimport \
-    bin/time_daemon:system/bin/time_daemon \
-    bin/updatemiscta:system/bin/updatemiscta \
-    etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
-    etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
-    etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
-    etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
-    etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
-    etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
-    etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
-    etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
-    etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
-    etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
-    etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
-    etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
-    etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
-    etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
-    etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
-    etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
-    etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
-    etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
-    etc/firmware/cmnlib.flist:system/etc/firmware/cmnlib.flist \
-    etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
-    etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    etc/firmware/cyttsp4_fw.bin:system/etc/firmware/cyttsp4_fw.bin \
-    etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
-    etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
-    etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
-    etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
-    etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
-    etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
-    etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
-    etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
-    etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
-    etc/firmware/modem.b10:system/etc/firmware/modem.b10 \
-    etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
-    etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
-    etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
-    etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
-    etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
-    etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
-    etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
-    etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
-    etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
-    etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
-    etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
-    etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
-    etc/firmware/modem.b26:system/etc/firmware/modem.b26 \
-    etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
-    etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
-    etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
-    etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
-    etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
-    etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
-    etc/firmware/tzhdcp.flist:system/etc/firmware/tzhdcp.flist \
-    etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
-    etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
-    etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
-    etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
-    etc/firmware/tzlibasb.b03:system/etc/firmware/tzlibasb.b03 \
-    etc/firmware/tzlibasb.flist:system/etc/firmware/tzlibasb.flist \
-    etc/firmware/tzlibasb.mdt:system/etc/firmware/tzlibasb.mdt \
-    etc/firmware/tzsuntory.b00:system/etc/firmware/tzsuntory.b00 \
-    etc/firmware/tzsuntory.b01:system/etc/firmware/tzsuntory.b01 \
-    etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
-    etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
-    etc/firmware/tzsuntory.flist:system/etc/firmware/tzsuntory.flist \
-    etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
-    etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
-    etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
-    lib/hw/lights.default.so:system/lib/hw/lights.default.so \
-    lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
-    lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    lib/libidd.so:system/lib/libidd.so \
-    lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    lib/liblights-core.so:system/lib/liblights-core.so \
-    lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    lib/libmiscta.so:system/lib/libmiscta.so \
-    lib/libmmcamera_ediya_eeprom.so:system/lib/libmmcamera_ediya_eeprom.so \
-    lib/libmmcamera_holly_eeprom.so:system/lib/libmmcamera_holly_eeprom.so \
-    lib/libmmcamera_imx188.so:system/lib/libmmcamera_imx188.so \
-    lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    lib/libmorpho_defocus_jni.so:system/lib/libmorpho_defocus_jni.so \
-    lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
-    lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
-    lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
-    lib/libmorpho_fdw.so:system/lib/libmorpho_fdw.so \
-    lib/libmorpho_hdr_checker.so:system/lib/libmorpho_hdr_checker.so \
-    lib/libmorpho_image_stabilizer3.so:system/lib/libmorpho_image_stabilizer3.so \
-    lib/libmorpho_movie_stabilizer3.so:system/lib/libmorpho_movie_stabilizer3.so \
-    lib/libmorpho_object_tracker2.so:system/lib/libmorpho_object_tracker2.so \
-    lib/libmorpho_posture_detect.so:system/lib/libmorpho_posture_detect.so \
-    lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
-    lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
-    lib/libpin-cache.so:system/lib/libpin-cache.so \
-    lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    lib/libqomx_core.so:system/lib/libqomx_core.so \
-    lib/libsys-utils.so:system/lib/libsys-utils.so \
-    lib/libsysmon.so:system/lib/libsysmon.so \
-    lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
-    lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
-    lib/libta.so:system/lib/libta.so \
-    lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
-    lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
-    lib/sysmon/sysmon_charging.so:system/lib/sysmon/sysmon_charging.so \
-    lib/sysmon/sysmon_corelimit.so:system/lib/sysmon/sysmon_corelimit.so \
-    lib/sysmon/sysmon_dc_current_limit_value.so:system/lib/sysmon/sysmon_dc_current_limit_value.so \
-    lib/sysmon/sysmon_gpu_perflevel.so:system/lib/sysmon/sysmon_gpu_perflevel.so \
-    lib/sysmon/sysmon_lcd_brightness_level.so:system/lib/sysmon/sysmon_lcd_brightness_level.so \
-    lib/sysmon/sysmon_modem_8X26.so:system/lib/sysmon/sysmon_modem_8X26.so \
-    lib/sysmon/sysmon_msm_therm.so:system/lib/sysmon/sysmon_msm_therm.so \
-    lib/sysmon/sysmon_msm_thermal_disable.so:system/lib/sysmon/sysmon_msm_thermal_disable.so \
-    lib/sysmon/sysmon_pa_therm0.so:system/lib/sysmon/sysmon_pa_therm0.so \
-    lib/sysmon/sysmon_pa_therm1.so:system/lib/sysmon/sysmon_pa_therm1.so \
-    lib/sysmon/sysmon_perflevel.so:system/lib/sysmon/sysmon_perflevel.so \
-    lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
-    lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
-    lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
-    lib/sysmon/sysmon_tsens_tz_sensor2.so:system/lib/sysmon/sysmon_tsens_tz_sensor2.so \
-    lib/sysmon/sysmon_tsens_tz_sensor3.so:system/lib/sysmon/sysmon_tsens_tz_sensor3.so \
-    lib/sysmon/sysmon_tsens_tz_sensor4.so:system/lib/sysmon/sysmon_tsens_tz_sensor4.so \
-    lib/sysmon/sysmon_tsens_tz_sensor5.so:system/lib/sysmon/sysmon_tsens_tz_sensor5.so \
-    lib/sysmon/sysmon_usb_current_limit_value.so:system/lib/sysmon/sysmon_usb_current_limit_value.so \
-    lib/sysmon/sysmon_wlan_limit.so:system/lib/sysmon/sysmon_wlan_limit.so \
-    lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
-    camera/morpho_colorcorrection.cfg:system/vendor/camera/morpho_colorcorrection.cfg \
-    camera/morpho_denoiser.cfg:system/vendor/camera/morpho_denoiser.cfg \
-    camera/morpho_denoiser_subcam.cfg:system/vendor/camera/morpho_denoiser_subcam.cfg \
-    camera/morpho_denoiser_subcam_preview.cfg:system/vendor/camera/morpho_denoiser_subcam_preview.cfg \
-    camera/morpho_face_detection.cfg:system/vendor/camera/morpho_face_detection.cfg \
-    camera/morpho_hdr.cfg:system/vendor/camera/morpho_hdr.cfg \
-    camera/morpho_moviesolid.cfg:system/vendor/camera/morpho_moviesolid.cfg \
-    camera/morpho_photosolid.cfg:system/vendor/camera/morpho_photosolid.cfg \
-    camera/morpho_photosolid_subcam.cfg:system/vendor/camera/morpho_photosolid_subcam.cfg \
-    camera/morpho_posturedetect.cfg:system/vendor/camera/morpho_posturedetect.cfg \
-    camera/morpho_scenedetect.cfg:system/vendor/camera/morpho_scenedetect.cfg \
-    camera/morpho_super_resolution.cfg:system/vendor/camera/morpho_super_resolution.cfg \
-    camera/morpho_tracksolid.cfg:system/vendor/camera/morpho_tracksolid.cfg \
-    firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    firmware/keymaster/keymaster.flist:system/vendor/firmware/keymaster/keymaster.flist \
-    firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
-    lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
-    lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
-    lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
-    lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
-    lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
-    lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-    lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-    lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    lib/libchromatix_imx135_SEM13BS1_common.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_common.so \
-    lib/libchromatix_imx135_SEM13BS1_default_video.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_default_video.so \
-    lib/libchromatix_imx135_SEM13BS1_hfr_120.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_hfr_120.so \
-    lib/libchromatix_imx135_SEM13BS1_liveshot_beach.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_beach.so \
-    lib/libchromatix_imx135_SEM13BS1_liveshot_landscape.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_landscape.so \
-    lib/libchromatix_imx135_SEM13BS1_liveshot_night.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_night.so \
-    lib/libchromatix_imx135_SEM13BS1_liveshot_party.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_party.so \
-    lib/libchromatix_imx135_SEM13BS1_liveshot_portrait.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_portrait.so \
-    lib/libchromatix_imx135_SEM13BS1_liveshot_snow.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_snow.so \
-    lib/libchromatix_imx135_SEM13BS1_liveshot_sports.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_sports.so \
-    lib/libchromatix_imx135_SEM13BS1_preview.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_anti_motion_blur.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_anti_motion_blur.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_baby.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_baby.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_backlight.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_backlight.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_backlight_portrait.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_backlight_portrait.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_beach.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_beach.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_dark.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_dark.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_dish.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_dish.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_document.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_document.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_fireworks.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_fireworks.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_handheld_twilight.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_handheld_twilight.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_high_sensitivity.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_high_sensitivity.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_landscape.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_landscape.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_macro.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_macro.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_night.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_night.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_night_portrait.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_night_portrait.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_party.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_party.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_pet.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_pet.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_portrait.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_portrait.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_snow.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_snow.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_soft_skin.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_soft_skin.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_sports.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_sports.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_spot_light.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_spot_light.so \
-    lib/libchromatix_imx135_SEM13BS1_preview_sweep_stitch.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_preview_sweep_stitch.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_anti_motion_blur.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_anti_motion_blur.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_baby.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_baby.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_backlight.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_backlight.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_backlight_portrait.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_backlight_portrait.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_beach.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_beach.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_dark.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_dark.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_dish.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_dish.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_document.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_document.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_fireworks.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_fireworks.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_handheld_twilight.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_handheld_twilight.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_high_sensitivity.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_high_sensitivity.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_landscape.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_landscape.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_macro.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_macro.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_night.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_night.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_night_portrait.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_night_portrait.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_party.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_party.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_pet.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_pet.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_portrait.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_portrait.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_snow.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_snow.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_soft_skin.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_soft_skin.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_sports.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_sports.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_spot_light.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_spot_light.so \
-    lib/libchromatix_imx135_SEM13BS1_snapshot_sweep_stitch.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_sweep_stitch.so \
-    lib/libchromatix_imx135_SEM13BS1_video_beach.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_video_beach.so \
-    lib/libchromatix_imx135_SEM13BS1_video_landscape.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_video_landscape.so \
-    lib/libchromatix_imx135_SEM13BS1_video_night.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_video_night.so \
-    lib/libchromatix_imx135_SEM13BS1_video_party.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_video_party.so \
-    lib/libchromatix_imx135_SEM13BS1_video_portrait.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_video_portrait.so \
-    lib/libchromatix_imx135_SEM13BS1_video_snow.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_video_snow.so \
-    lib/libchromatix_imx135_SEM13BS1_video_sports.so:system/vendor/lib/libchromatix_imx135_SEM13BS1_video_sports.so \
-    lib/libchromatix_imx135_SOI13BS2_common.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_common.so \
-    lib/libchromatix_imx135_SOI13BS2_default_video.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_default_video.so \
-    lib/libchromatix_imx135_SOI13BS2_hfr_120.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_hfr_120.so \
-    lib/libchromatix_imx135_SOI13BS2_liveshot_beach.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_beach.so \
-    lib/libchromatix_imx135_SOI13BS2_liveshot_landscape.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_landscape.so \
-    lib/libchromatix_imx135_SOI13BS2_liveshot_night.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_night.so \
-    lib/libchromatix_imx135_SOI13BS2_liveshot_party.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_party.so \
-    lib/libchromatix_imx135_SOI13BS2_liveshot_portrait.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_portrait.so \
-    lib/libchromatix_imx135_SOI13BS2_liveshot_snow.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_snow.so \
-    lib/libchromatix_imx135_SOI13BS2_liveshot_sports.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_sports.so \
-    lib/libchromatix_imx135_SOI13BS2_preview.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_anti_motion_blur.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_anti_motion_blur.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_baby.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_baby.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_backlight.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_backlight.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_backlight_portrait.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_backlight_portrait.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_beach.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_beach.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_dark.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_dark.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_dish.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_dish.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_document.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_document.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_fireworks.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_fireworks.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_handheld_twilight.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_handheld_twilight.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_high_sensitivity.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_high_sensitivity.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_landscape.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_landscape.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_macro.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_macro.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_night.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_night.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_night_portrait.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_night_portrait.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_party.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_party.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_pet.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_pet.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_portrait.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_portrait.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_snow.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_snow.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_soft_skin.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_soft_skin.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_sports.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_sports.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_spot_light.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_spot_light.so \
-    lib/libchromatix_imx135_SOI13BS2_preview_sweep_stitch.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_preview_sweep_stitch.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_anti_motion_blur.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_anti_motion_blur.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_baby.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_baby.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_backlight.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_backlight.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_backlight_portrait.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_backlight_portrait.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_beach.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_beach.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_dark.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_dark.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_dish.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_dish.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_document.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_document.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_fireworks.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_fireworks.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_handheld_twilight.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_handheld_twilight.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_high_sensitivity.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_high_sensitivity.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_landscape.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_landscape.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_macro.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_macro.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_night.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_night.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_night_portrait.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_night_portrait.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_party.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_party.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_pet.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_pet.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_portrait.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_portrait.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_snow.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_snow.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_soft_skin.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_soft_skin.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_sports.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_sports.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_spot_light.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_spot_light.so \
-    lib/libchromatix_imx135_SOI13BS2_snapshot_sweep_stitch.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_sweep_stitch.so \
-    lib/libchromatix_imx135_SOI13BS2_video_beach.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_video_beach.so \
-    lib/libchromatix_imx135_SOI13BS2_video_landscape.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_video_landscape.so \
-    lib/libchromatix_imx135_SOI13BS2_video_night.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_video_night.so \
-    lib/libchromatix_imx135_SOI13BS2_video_party.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_video_party.so \
-    lib/libchromatix_imx135_SOI13BS2_video_portrait.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_video_portrait.so \
-    lib/libchromatix_imx135_SOI13BS2_video_snow.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_video_snow.so \
-    lib/libchromatix_imx135_SOI13BS2_video_sports.so:system/vendor/lib/libchromatix_imx135_SOI13BS2_video_sports.so \
-    lib/libchromatix_imx188_FXC01BM0_common.so:system/vendor/lib/libchromatix_imx188_FXC01BM0_common.so \
-    lib/libchromatix_imx188_FXC01BM0_default_video.so:system/vendor/lib/libchromatix_imx188_FXC01BM0_default_video.so \
-    lib/libchromatix_imx188_FXC01BM0_preview.so:system/vendor/lib/libchromatix_imx188_FXC01BM0_preview.so \
-    lib/libchromatix_imx188_FXC01BM0_snapshot.so:system/vendor/lib/libchromatix_imx188_FXC01BM0_snapshot.so \
-    lib/libchromatix_imx188_LTO01BM0_common.so:system/vendor/lib/libchromatix_imx188_LTO01BM0_common.so \
-    lib/libchromatix_imx188_LTO01BM0_default_video.so:system/vendor/lib/libchromatix_imx188_LTO01BM0_default_video.so \
-    lib/libchromatix_imx188_LTO01BM0_preview.so:system/vendor/lib/libchromatix_imx188_LTO01BM0_preview.so \
-    lib/libchromatix_imx188_LTO01BM0_snapshot.so:system/vendor/lib/libchromatix_imx188_LTO01BM0_snapshot.so \
-    lib/libchromatix_imx188_SEM01BM1_common.so:system/vendor/lib/libchromatix_imx188_SEM01BM1_common.so \
-    lib/libchromatix_imx188_SEM01BM1_default_video.so:system/vendor/lib/libchromatix_imx188_SEM01BM1_default_video.so \
-    lib/libchromatix_imx188_SEM01BM1_preview.so:system/vendor/lib/libchromatix_imx188_SEM01BM1_preview.so \
-    lib/libchromatix_imx188_SEM01BM1_snapshot.so:system/vendor/lib/libchromatix_imx188_SEM01BM1_snapshot.so \
-    lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    lib/libcneutils.so:system/vendor/lib/libcneutils.so \
-    lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    lib/libdiag.so:system/vendor/lib/libdiag.so \
-    lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
-    lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
-    lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
-    lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    lib/libhscdtd.so:system/vendor/lib/libhscdtd.so \
-    lib/libidl.so:system/vendor/lib/libidl.so \
-    lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    lib/liblisten.so:system/vendor/lib/liblisten.so \
-    lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-    lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-    lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
-    lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
-    lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
-    lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
-    lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
-    lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
-    lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
-    lib/libmmipl.so:system/vendor/lib/libmmipl.so \
-    lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-    lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-    lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-    lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
-    lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-    lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
-    lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
-    lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
-    lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
-    lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    lib/libqdi.so:system/vendor/lib/libqdi.so \
-    lib/libqdp.so:system/vendor/lib/libqdp.so \
-    lib/libqmi.so:system/vendor/lib/libqmi.so \
-    lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
-    lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    lib/librpmb.so:system/vendor/lib/librpmb.so \
-    lib/libscale.so:system/vendor/lib/libscale.so \
-    lib/libscve.so:system/vendor/lib/libscve.so \
-    lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    lib/libssd.so:system/vendor/lib/libssd.so \
-    lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-    lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
-    lib/libulp2.so:system/vendor/lib/libulp2.so \
-    lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
-    lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
-    lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
-    lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    lib/libwvm.so:system/vendor/lib/libwvm.so \
-    lib/libxml.so:system/vendor/lib/libxml.so \
-    lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
-    lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+bin/acc_cal_data_manager
+bin/adsprpcd
+bin/bridgemgrd
+bin/btnvtool
+bin/cal_data_manager
+bin/chargemon
+bin/display_color_calib
+bin/ds_fmc_appd
+bin/fmconfig
+bin/fm_qsoc_patches
+bin/hci_qcomm_init
+bin/hvdcp
+bin/illumination_service
+bin/irsc_util
+bin/mm-pp-daemon
+bin/mpdecision
+bin/netmgrd
+bin/port-bridge
+bin/ptt_socket_app
+bin/qcom-system-daemon
+bin/qmiproxy
+bin/qmuxd
+bin/qseecomd
+bin/radish
+bin/rfs_access
+bin/rmt_storage
+bin/scd
+bin/scdnotifier
+bin/sct_service
+bin/sensors.qcom
+bin/system_monitor
+bin/taimport
+bin/ta_qmi_service
+bin/time_daemon
+bin/updatemiscta
+etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+etc/acdbdata/MTP/MTP_General_cal.acdb
+etc/acdbdata/MTP/MTP_Global_cal.acdb
+etc/acdbdata/MTP/MTP_Handset_cal.acdb
+etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+etc/acdbdata/MTP/MTP_Headset_cal.acdb
+etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+etc/acdbdata/QRD/QRD_General_cal.acdb
+etc/acdbdata/QRD/QRD_Global_cal.acdb
+etc/acdbdata/QRD/QRD_Handset_cal.acdb
+etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+etc/acdbdata/QRD/QRD_Headset_cal.acdb
+etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+etc/firmware/adsp.b00
+etc/firmware/adsp.b01
+etc/firmware/adsp.b02
+etc/firmware/adsp.b03
+etc/firmware/adsp.b04
+etc/firmware/adsp.b05
+etc/firmware/adsp.b06
+etc/firmware/adsp.b07
+etc/firmware/adsp.b08
+etc/firmware/adsp.b09
+etc/firmware/adsp.b10
+etc/firmware/adsp.b11
+etc/firmware/adsp.b12
+etc/firmware/adsp.mdt
+etc/firmware/cmnlib.b00
+etc/firmware/cmnlib.b01
+etc/firmware/cmnlib.b02
+etc/firmware/cmnlib.b03
+etc/firmware/cmnlib.flist
+etc/firmware/cmnlib.mdt
+etc/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cyttsp4_fw.bin
+etc/firmware/mba.b00
+etc/firmware/mba.mdt
+etc/firmware/modem.b00
+etc/firmware/modem.b01
+etc/firmware/modem.b02
+etc/firmware/modem.b03
+etc/firmware/modem.b04
+etc/firmware/modem.b05
+etc/firmware/modem.b08
+etc/firmware/modem.b10
+etc/firmware/modem.b11
+etc/firmware/modem.b13
+etc/firmware/modem.b14
+etc/firmware/modem.b15
+etc/firmware/modem.b16
+etc/firmware/modem.b17
+etc/firmware/modem.b18
+etc/firmware/modem.b19
+etc/firmware/modem.b20
+etc/firmware/modem.b21
+etc/firmware/modem.b22
+etc/firmware/modem.b25
+etc/firmware/modem.b26
+etc/firmware/modem.b27
+etc/firmware/modem.mdt
+etc/firmware/tzhdcp.b00
+etc/firmware/tzhdcp.b01
+etc/firmware/tzhdcp.b02
+etc/firmware/tzhdcp.b03
+etc/firmware/tzhdcp.flist
+etc/firmware/tzhdcp.mdt
+etc/firmware/tzlibasb.b00
+etc/firmware/tzlibasb.b01
+etc/firmware/tzlibasb.b02
+etc/firmware/tzlibasb.b03
+etc/firmware/tzlibasb.flist
+etc/firmware/tzlibasb.mdt
+etc/firmware/tzsuntory.b00
+etc/firmware/tzsuntory.b01
+etc/firmware/tzsuntory.b02
+etc/firmware/tzsuntory.b03
+etc/firmware/tzsuntory.flist
+etc/firmware/tzsuntory.mdt
+etc/firmware/venus.b00
+etc/firmware/venus.b01
+etc/firmware/venus.b02
+etc/firmware/venus.b03
+etc/firmware/venus.b04
+etc/firmware/venus.mbn
+etc/firmware/venus.mdt
+etc/firmware/wcnss.b00
+etc/firmware/wcnss.b01
+etc/firmware/wcnss.b02
+etc/firmware/wcnss.b04
+etc/firmware/wcnss.b06
+etc/firmware/wcnss.b07
+etc/firmware/wcnss.b08
+etc/firmware/wcnss.b09
+etc/firmware/wcnss.mdt
+lib/hw/camera.msm8226.so:lib/hw/camera.vendor.msm8226.so
+lib/hw/lights.default.so:lib/hw/lights.vendor.default.so
+lib/sysmon/sysmon_batt_therm.so
+lib/sysmon/sysmon_charge_current_limit_level.so
+lib/sysmon/sysmon_charging.so
+lib/sysmon/sysmon_corelimit.so
+lib/sysmon/sysmon_dc_current_limit_value.so
+lib/sysmon/sysmon_gpu_perflevel.so
+lib/sysmon/sysmon_lcd_brightness_level.so
+lib/sysmon/sysmon_modem_8X26.so
+lib/sysmon/sysmon_msm_therm.so
+lib/sysmon/sysmon_msm_thermal_disable.so
+lib/sysmon/sysmon_pa_therm0.so
+lib/sysmon/sysmon_pa_therm1.so
+lib/sysmon/sysmon_perflevel.so
+lib/sysmon/sysmon_test_sensor.so
+lib/sysmon/sysmon_tsens_tz_sensor0.so
+lib/sysmon/sysmon_tsens_tz_sensor1.so
+lib/sysmon/sysmon_tsens_tz_sensor2.so
+lib/sysmon/sysmon_tsens_tz_sensor3.so
+lib/sysmon/sysmon_tsens_tz_sensor4.so
+lib/sysmon/sysmon_tsens_tz_sensor5.so
+lib/sysmon/sysmon_usb_current_limit_value.so
+lib/sysmon/sysmon_wlan_limit.so
+lib/sysmon/sysmon_xo_therm.so
+lib/lib_asb_tee.so
+lib/libcamera_clientsemc.so
+lib/libchromatix_imx135_SEM13BS1_liveshot.so
+lib/libchromatix_imx135_SEM13BS1_video_hd.so
+lib/libchromatix_imx135_SOI13BS2_liveshot.so
+lib/libchromatix_imx135_SOI13BS2_video_hd.so
+lib/libcnefeatureconfig.so
+lib/libidd.so
+lib/libkeyctrl.so
+lib/liblights-core.so
+lib/libmiscta.so
+lib/libMiscTaAccessor.so
+lib/libmmcamera_ediya_eeprom.so
+lib/libmmcamera_holly_eeprom.so
+lib/libmmcamera_imx188.so
+lib/libmmcamera_interface.so
+lib/libmm-qcamera.so
+lib/libmorpho_defocus_jni.so
+lib/libmorpho_denoiser.so
+lib/libmorpho_easy_hdr.so
+lib/libmorpho_edit_engine.so
+lib/libmorpho_fdw.so
+lib/libmorpho_hdr_checker.so
+lib/libmorpho_image_stabilizer3.so
+lib/libmorpho_movie_stabilizer3.so
+lib/libmorpho_object_tracker2.so
+lib/libmorpho_posture_detect.so
+lib/libmorpho_scene_detector.so
+lib/libmorpho_super_resolution.so
+lib/libpin-cache.so
+lib/libprotobuf-c.so
+lib/libscdclient.so
+lib/libsysmon.so
+lib/libsysmon_idd.so
+lib/libsysmon_jni.so
+lib/libsys-utils.so
+lib/libta.so
+vendor/camera/morpho_colorcorrection.cfg
+vendor/camera/morpho_denoiser.cfg
+vendor/camera/morpho_denoiser_subcam.cfg
+vendor/camera/morpho_denoiser_subcam_preview.cfg
+vendor/camera/morpho_face_detection.cfg
+vendor/camera/morpho_hdr.cfg
+vendor/camera/morpho_moviesolid.cfg
+vendor/camera/morpho_photosolid.cfg
+vendor/camera/morpho_photosolid_subcam.cfg
+vendor/camera/morpho_posturedetect.cfg
+vendor/camera/morpho_scenedetect.cfg
+vendor/camera/morpho_super_resolution.cfg
+vendor/camera/morpho_tracksolid.cfg
+vendor/firmware/keymaster/keymaster.b00
+vendor/firmware/keymaster/keymaster.b01
+vendor/firmware/keymaster/keymaster.b02
+vendor/firmware/keymaster/keymaster.b03
+vendor/firmware/keymaster/keymaster.flist
+vendor/firmware/keymaster/keymaster.mdt
+vendor/firmware/libpn547_fw.so
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/hw/sensors.msm8226.so
+vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbmapper.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libAKM8963.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libbtnv.so
+vendor/lib/libbt-vendor.so
+vendor/lib/libchromatix_imx135_SEM13BS1_common.so
+vendor/lib/libchromatix_imx135_SEM13BS1_default_video.so
+vendor/lib/libchromatix_imx135_SEM13BS1_hfr_120.so
+vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_beach.so
+vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_landscape.so
+vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_night.so
+vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_party.so
+vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_portrait.so
+vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_snow.so
+vendor/lib/libchromatix_imx135_SEM13BS1_liveshot_sports.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_anti_motion_blur.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_baby.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_backlight.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_backlight_portrait.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_beach.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_dark.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_dish.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_document.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_fireworks.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_handheld_twilight.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_high_sensitivity.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_landscape.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_macro.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_night.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_night_portrait.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_party.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_pet.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_portrait.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_snow.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_soft_skin.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_sports.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_spot_light.so
+vendor/lib/libchromatix_imx135_SEM13BS1_preview_sweep_stitch.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_anti_motion_blur.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_baby.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_backlight.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_backlight_portrait.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_beach.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_dark.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_dish.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_document.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_fireworks.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_handheld_twilight.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_high_sensitivity.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_landscape.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_macro.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_night.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_night_portrait.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_party.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_pet.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_portrait.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_snow.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_soft_skin.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_sports.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_spot_light.so
+vendor/lib/libchromatix_imx135_SEM13BS1_snapshot_sweep_stitch.so
+vendor/lib/libchromatix_imx135_SEM13BS1_video_beach.so
+vendor/lib/libchromatix_imx135_SEM13BS1_video_landscape.so
+vendor/lib/libchromatix_imx135_SEM13BS1_video_night.so
+vendor/lib/libchromatix_imx135_SEM13BS1_video_party.so
+vendor/lib/libchromatix_imx135_SEM13BS1_video_portrait.so
+vendor/lib/libchromatix_imx135_SEM13BS1_video_snow.so
+vendor/lib/libchromatix_imx135_SEM13BS1_video_sports.so
+vendor/lib/libchromatix_imx135_SOI13BS2_common.so
+vendor/lib/libchromatix_imx135_SOI13BS2_default_video.so
+vendor/lib/libchromatix_imx135_SOI13BS2_hfr_120.so
+vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_beach.so
+vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_landscape.so
+vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_night.so
+vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_party.so
+vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_portrait.so
+vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_snow.so
+vendor/lib/libchromatix_imx135_SOI13BS2_liveshot_sports.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_anti_motion_blur.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_baby.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_backlight.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_backlight_portrait.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_beach.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_dark.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_dish.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_document.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_fireworks.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_handheld_twilight.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_high_sensitivity.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_landscape.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_macro.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_night.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_night_portrait.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_party.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_pet.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_portrait.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_snow.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_soft_skin.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_sports.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_spot_light.so
+vendor/lib/libchromatix_imx135_SOI13BS2_preview_sweep_stitch.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_anti_motion_blur.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_baby.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_backlight.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_backlight_portrait.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_beach.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_dark.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_dish.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_document.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_fireworks.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_handheld_twilight.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_high_sensitivity.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_landscape.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_macro.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_night.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_night_portrait.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_party.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_pet.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_portrait.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_snow.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_soft_skin.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_sports.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_spot_light.so
+vendor/lib/libchromatix_imx135_SOI13BS2_snapshot_sweep_stitch.so
+vendor/lib/libchromatix_imx135_SOI13BS2_video_beach.so
+vendor/lib/libchromatix_imx135_SOI13BS2_video_landscape.so
+vendor/lib/libchromatix_imx135_SOI13BS2_video_night.so
+vendor/lib/libchromatix_imx135_SOI13BS2_video_party.so
+vendor/lib/libchromatix_imx135_SOI13BS2_video_portrait.so
+vendor/lib/libchromatix_imx135_SOI13BS2_video_snow.so
+vendor/lib/libchromatix_imx135_SOI13BS2_video_sports.so
+vendor/lib/libchromatix_imx188_FXC01BM0_common.so
+vendor/lib/libchromatix_imx188_FXC01BM0_default_video.so
+vendor/lib/libchromatix_imx188_FXC01BM0_preview.so
+vendor/lib/libchromatix_imx188_FXC01BM0_snapshot.so
+vendor/lib/libchromatix_imx188_LTO01BM0_common.so
+vendor/lib/libchromatix_imx188_LTO01BM0_default_video.so
+vendor/lib/libchromatix_imx188_LTO01BM0_preview.so
+vendor/lib/libchromatix_imx188_LTO01BM0_snapshot.so
+vendor/lib/libchromatix_imx188_SEM01BM1_common.so
+vendor/lib/libchromatix_imx188_SEM01BM1_default_video.so
+vendor/lib/libchromatix_imx188_SEM01BM1_preview.so
+vendor/lib/libchromatix_imx188_SEM01BM1_snapshot.so
+vendor/lib/libcneqmiutils.so
+vendor/lib/libCommandSvc.so
+vendor/lib/libconfigdb.so
+vendor/lib/libdiag.so
+vendor/lib/libdsi_netctrl.so
+vendor/lib/libdsnetutils.so
+vendor/lib/libdsucsd.so
+vendor/lib/libdsutils.so
+vendor/lib/libExtendedExtractor.so
+vendor/lib/libFileMux.so
+vendor/lib/libhscdtd.so
+vendor/lib/libidl.so
+vendor/lib/liblisten.so
+vendor/lib/liblistenhardware.so
+vendor/lib/liblistenjni.so
+vendor/lib/libmm-abl-oem.so
+vendor/lib/libmmcamera2_c2d_module.so
+vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_iface_modules.so
+vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_isp_modules.so
+vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_stats_algorithm.so
+vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera2_vpe_module.so
+vendor/lib/libmmcamera2_wnr_module.so
+vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_hdr_gb_lib.so
+vendor/lib/libmmcamera_hdr_lib.so
+vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_imx135.so
+vendor/lib/libmmcamera_tintless_algo.so
+vendor/lib/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib/libmmcamera_tuning.so
+vendor/lib/libmmcamera_wavelet_lib.so
+vendor/lib/libmmhttpstack.so
+vendor/lib/libmmiipstreammmihttp.so
+vendor/lib/libmmipl.so
+vendor/lib/libmmipstreamaal.so
+vendor/lib/libmmipstreamnetwork.so
+vendor/lib/libmmipstreamsourcehttp.so
+vendor/lib/libmmipstreamutils.so
+vendor/lib/libmmosal.so
+vendor/lib/libmmparser.so
+vendor/lib/libmmrtpdecoder.so
+vendor/lib/libmmrtpencoder.so
+vendor/lib/libmmwfdinterface.so
+vendor/lib/libmmwfdsinkinterface.so
+vendor/lib/libmmwfdsrcinterface.so
+vendor/lib/libnetmgr.so
+vendor/lib/liboemcamera.so
+vendor/lib/liboi_sbc_decoder.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqdi.so
+vendor/lib/libqdp.so
+vendor/lib/libqmi.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_csvt_srvc.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+vendor/lib/libril-qc-qmi-1.so
+vendor/lib/libsensor1.so
+vendor/lib/libsensor_reg.so
+vendor/lib/libStDrvInt.so
+vendor/lib/libsubsystem_control.so
+vendor/lib/libSubSystemShutdown.so
+vendor/lib/libthermalclient.so
+vendor/lib/libthermalioctl.so
+vendor/lib/libTimeService.so
+vendor/lib/libwfdcommonutils.so
+vendor/lib/libwfdmmsink.so
+vendor/lib/libwfdmmsrc.so
+vendor/lib/libwfdmmutils.so
+vendor/lib/libwfdnative.so
+vendor/lib/libwfdrtsp.so
+vendor/lib/libwfdsm.so
+vendor/lib/libwfduibcinterface.so
+vendor/lib/libwfduibcsink.so
+vendor/lib/libwfduibcsinkinterface.so
+vendor/lib/libwfduibcsrc.so
+vendor/lib/libwfduibcsrcinterface.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/libwvm.so
+vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/libxml.so
