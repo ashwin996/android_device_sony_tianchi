@@ -16,13 +16,13 @@
 include device/sony/msm8226-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D5303,tianchi
+TARGET_OTA_ASSERT_DEVICE := D5322,tianchi
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/tianchi/include
 
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/tianchi
-TARGET_KERNEL_CONFIG := cm_yukon_tianchi_defconfig
+TARGET_KERNEL_CONFIG := cm_yukon_tianchi_dsds_defconfig
 
 # Hardware Features
 BOARD_HARDWARE_CLASS := device/sony/tianchi/cmhw
